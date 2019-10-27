@@ -1,4 +1,6 @@
-﻿namespace Degiskenler_
+﻿using System;
+
+namespace Degiskenler_
 {
     class Program
     {
@@ -67,10 +69,16 @@
              
             // Metinsel veri tipleri
             // char
-            char karakter = 'A';
+            char karakter = 'A';  //    65/A
+
+
             // string
-            string metin = "A";
-             
+            string metin = "\tB\n\ti\n\tl\n\tg\n\te\n\tA\n\td\n\ta\n\tm";
+            // \n (new line) bir alt satıre geç
+            // \t (tab space) bir tab boşluk ekler
+
+            Console.WriteLine(metin);
+            Console.ReadLine();
             // Mantıksal veri tipi
             // bool
             bool result = 10 > 1; // true
